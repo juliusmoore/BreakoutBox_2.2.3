@@ -1,0 +1,11 @@
+BreakoutBox 2.2.3
+Now a prototype for a tile based games.
+developed by Julius Moore
+This version was developed: December 7 2014
+First version created on: July 31 2014
+
+How to play:
+(enter "help" for controls)
+
+In this game, your objective is to safely find all the candy, and exit to the next level with your stash.
+Note: The game is currently being overworked in order to be able to build multiple different kinds of games from.

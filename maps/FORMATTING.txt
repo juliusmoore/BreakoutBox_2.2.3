@@ -1,0 +1,41 @@
+Tiles:
+0 = fall
+1 = land (1), spawn (s)
+2 = wall
+3 = candy
+4 = exit
+
+note: decided to use the .mox extension maps "map box"
+
+Version: "bmaper 1.0"
+EXAMPLE BEGINS NEXT LINE
+<checks for a version number here>
+<this will be stored as the name of the map (enter N/A) to avoid output)>
+<map goes below. can handle numbers 0 through 9>
+EXAMPLE ENDS
+Uses Tiles 0-4, unrecognized characters will be replaced with 2 aka walls.
+
+Version: "bmaper 2.0"
+EXAMPLE BEGINS NEXT LINE
+<checks for a version number here>
+<this will be stored as the name of the map (enter N/A to avoid output)>
+<map goes below. formatting explained after the example>
+EXAMPLE ENDS
+Tabs separate representations but only because I don't want to write a map generator yet.
+In each rep:
+-virtually unlimited digit representation of the value of the tile ie 9097 or 2 (minimum of 1 digit)
+-(u or r or or s or e) designates the type of entity to be places on this tile:
+	u: Updateable, these entities must be updated in an external thread. Currently EntityTracker handles this.
+		(see r)
+	r: Runnable, these entities create their own thread.
+		-unlimited # digit represents the entity type to be spawned
+		-u and r represent different kinds of entities, and so 0 on r may represent something else on u
+	e: Nothing to place here
+		(nothing expected)
+	s: Player's spawn point
+		(nothing expected)
+example:
+1u9.2r8.1s.16e.21e5.
+Note that the last piece of the example will work, but the 5 will be essentially ignored in generating the map array.
+
+note: decided to use .cox extensions "campaign box".

@@ -1,0 +1,7 @@
+testmap1
+testmap2
+testmap3
+testmap4
+maze1
+testmap5
+testmap6

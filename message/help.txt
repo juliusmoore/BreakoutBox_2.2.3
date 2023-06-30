@@ -1,0 +1,13 @@
+Commands:
+n, ne, e, se, s, sw, w, nw - move
+help - display this file
+about - display information about the game, and how to play it
+release info - display the past changes to BreakoutBox
+exit, quit - shutdown the game
+
+Debugging Commands:
+text_ -> send a text to be displayed on an output panel
+stacks_ -> dump the stacks from an output panel to standard output
+	where _ is:
+		d: the debug window
+		m: the future message-interaction window
