@@ -7,4 +7,4 @@ Java is required to run this game. To see if Java is installed and available fro
 
 Start the game by doubleclicking BreakoutBox.bat or by typing "java BreakoutBox" from the command line.
 
-When the game starts it will list the available maps, and ask the player to choose which map to load by typing in the name and pressing enter. Be sure the window is selected and use the arrow keys to move. Alternately, the command line may be used to move the player. Collect the candy and move to the exit without falling off a cliff.
+When the game starts it will list the available maps, and ask the player to choose which map to load by typing in the map's name and pressing enter. Be sure the window is selected and use the arrow keys to move. Alternately, the command line may be used to move the player. Collect the candy and move to the exit without falling off a cliff.
